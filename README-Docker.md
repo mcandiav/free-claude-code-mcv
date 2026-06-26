@@ -8,6 +8,8 @@ Ejecutar Free Claude Code como contenedor Docker local para que Claude Code pued
 
 ## Estado validado
 
+Estado final: operativo y cerrado funcionalmente al 2026-06-26.
+
 - Sistema host: Windows 11 Pro.
 - Ruta local de trabajo: D:\dockers\free-claude-code.
 - Imagen construida: free-claude-code:local.
@@ -91,6 +93,10 @@ El archivo `.env.docker.example` no debe contener claves reales.
 El puerto del proxy debe publicarse solo en `127.0.0.1`.
 
 No exponer `/admin` por LAN, Cloudflare, Tailscale ni dominio externo sin nueva revision de seguridad.
+
+## Cierre
+
+Proyecto operativo en el Notebook ACER. No quedan pendientes bloqueantes para el uso local de Claude Code mediante Free Claude Code Docker y NVIDIA NIM.
 
 ## Notas
 
