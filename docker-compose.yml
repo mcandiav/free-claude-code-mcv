@@ -1,0 +1,12 @@
+services:
+  fcc-proxy:
+    image: free-claude-code:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fcc-proxy
+    ports:
+      - "8082:8082"
+    env_file:
+      - .env
+    restart: unless-stopped
